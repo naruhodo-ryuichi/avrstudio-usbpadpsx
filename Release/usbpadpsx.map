@@ -1,0 +1,569 @@
+Archive member included because of file (symbol)
+
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+                              c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o (exit)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+                              usbdrv/usbdrv.o (__do_copy_data)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+                              psx.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+usbTxBuf            0xb               usbdrv/usbdrv.o
+usbTxStatus1        0xc               usbdrv/usbdrv.o
+usbDeviceAddr       0x1               usbdrv/usbdrv.o
+bMotor              0x1               usbpad.o
+usbRxToken          0x1               usbdrv/usbdrv.o
+usbInputBufOffset   0x1               usbdrv/usbdrv.o
+usbMsgPtr           0x2               usbdrv/usbdrv.o
+usbRxLen            0x1               usbdrv/usbdrv.o
+report              0x8               usbpad.o
+usbNewDeviceAddr    0x1               usbdrv/usbdrv.o
+usbCurrentTok       0x1               usbdrv/usbdrv.o
+usbConfiguration    0x1               usbdrv/usbdrv.o
+sMotor              0x1               usbpad.o
+usbRxBuf            0x16              usbdrv/usbdrv.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+ .text          0x00000000        0x0 psx.o
+ .data          0x00000000        0x0 psx.o
+ .bss           0x00000000        0x0 psx.o
+ .text          0x00000000        0x0 report_desc.o
+ .data          0x00000000        0x0 report_desc.o
+ .bss           0x00000000        0x0 report_desc.o
+ .text          0x00000000        0x0 spi.o
+ .data          0x00000000        0x0 spi.o
+ .bss           0x00000000        0x0 spi.o
+ .text          0x00000000        0x0 usbdrv/oddebug.o
+ .data          0x00000000        0x0 usbdrv/oddebug.o
+ .bss           0x00000000        0x0 usbdrv/oddebug.o
+ .comment       0x00000000       0x31 usbdrv/oddebug.o
+ .text          0x00000000        0x0 usbdrv/usbdrv.o
+ .data          0x00000000        0x0 usbdrv/usbdrv.o
+ .bss           0x00000000        0x0 usbdrv/usbdrv.o
+ .data          0x00000000        0x0 usbdrv/usbdrvasm.o
+ .bss           0x00000000        0x0 usbdrv/usbdrvasm.o
+ .text          0x00000000        0x0 usbpad.o
+ .data          0x00000000        0x0 usbpad.o
+ .bss           0x00000000        0x0 usbpad.o
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+LOAD psx.o
+LOAD report_desc.o
+LOAD spi.o
+LOAD usbdrv/oddebug.o
+LOAD usbdrv/usbdrv.o
+LOAD usbdrv/usbdrvasm.o
+LOAD usbpad.o
+START GROUP
+END GROUP
+START GROUP
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4\libm.a
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x13d0
+ *(.vectors)
+ .vectors       0x00000000       0x34 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000034                . = ALIGN (0x2)
+                0x00000034                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000034        0x0 linker stubs
+ *(.trampolines*)
+                0x00000034                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data.usbDescriptorHidReport
+                0x00000034      0x4e9 report_desc.o
+                0x00000034                usbDescriptorHidReport
+ .progmem.data.usbDescriptorConfiguration
+                0x0000051d       0x22 usbdrv/usbdrv.o
+                0x0000051d                usbDescriptorConfiguration
+ .progmem.data.usbDescriptorDevice
+                0x0000053f       0x12 usbdrv/usbdrv.o
+                0x0000053f                usbDescriptorDevice
+ .progmem.data.usbDescriptorStringDevice
+                0x00000551        0xe usbdrv/usbdrv.o
+                0x00000551                usbDescriptorStringDevice
+ .progmem.data.usbDescriptorStringVendor
+                0x0000055f        0xe usbdrv/usbdrv.o
+                0x0000055f                usbDescriptorStringVendor
+ .progmem.data.usbDescriptorString0
+                0x0000056d        0x4 usbdrv/usbdrv.o
+                0x0000056d                usbDescriptorString0
+                0x00000572                . = ALIGN (0x2)
+ *fill*         0x00000571        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000572                __ctors_start = .
+ *(.ctors)
+                0x00000572                __ctors_end = .
+                0x00000572                __dtors_start = .
+ *(.dtors)
+                0x00000572                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000572        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+                0x00000572                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000572        0xc c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000057e       0x16 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_copy_data.o)
+                0x0000057e                __do_copy_data
+ .init4         0x00000594       0x10 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_clear_bss.o)
+                0x00000594                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000005a4        0x4 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+ *(.init9)
+ *(.text)
+ .text          0x000005a8        0x2 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr4/crtm88.o
+                0x000005a8                __vector_22
+                0x000005a8                __vector_24
+                0x000005a8                __bad_interrupt
+                0x000005a8                __vector_6
+                0x000005a8                __vector_3
+                0x000005a8                __vector_23
+                0x000005a8                __vector_25
+                0x000005a8                __vector_13
+                0x000005a8                __vector_17
+                0x000005a8                __vector_19
+                0x000005a8                __vector_7
+                0x000005a8                __vector_5
+                0x000005a8                __vector_4
+                0x000005a8                __vector_9
+                0x000005a8                __vector_2
+                0x000005a8                __vector_21
+                0x000005a8                __vector_15
+                0x000005a8                __vector_8
+                0x000005a8                __vector_14
+                0x000005a8                __vector_10
+                0x000005a8                __vector_16
+                0x000005a8                __vector_18
+                0x000005a8                __vector_20
+ .text          0x000005aa      0x262 usbdrv/usbdrvasm.o
+                0x000005aa                usbCrc16
+                0x000005d4                usbCrc16Append
+                0x000005dc                __vector_1
+                0x0000080c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.psxInit  0x0000080c      0x272 psx.o
+                0x0000080c                psxInit
+ .text.psxtalk  0x00000a7e      0x3c4 psx.o
+                0x00000a7e                psxtalk
+ .text.spi_mInit
+                0x00000e42        0x6 spi.o
+                0x00000e42                spi_mInit
+ .text.spi_mSend
+                0x00000e48        0xc spi.o
+                0x00000e48                spi_mSend
+ .text.usbSetInterrupt
+                0x00000e54       0x44 usbdrv/usbdrv.o
+                0x00000e54                usbSetInterrupt
+ .text.usbPoll  0x00000e98      0x280 usbdrv/usbdrv.o
+                0x00000e98                usbPoll
+ .text.usbInit  0x00001118       0x1a usbdrv/usbdrv.o
+                0x00001118                usbInit
+ .text.usbFunctionSetup
+                0x00001132       0x68 usbpad.o
+                0x00001132                usbFunctionSetup
+ .text.usbFunctionWrite
+                0x0000119a       0xba usbpad.o
+                0x0000119a                usbFunctionWrite
+ .text.__vector_11
+                0x00001254       0x2e usbpad.o
+                0x00001254                __vector_11
+ .text.__vector_12
+                0x00001282       0x2e usbpad.o
+                0x00001282                __vector_12
+ .text.startup.main
+                0x000012b0      0x11c usbpad.o
+                0x000012b0                main
+                0x000013cc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000013cc        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+                0x000013cc                _exit
+                0x000013cc                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000013cc        0x4 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000013d0                _etext = .
+
+.data           0x00800100       0x12 load address 0x000013d0
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.usbMsgLen
+                0x00800100        0x2 usbdrv/usbdrv.o
+ .data.usbTxLen
+                0x00800102        0x1 usbdrv/usbdrv.o
+                0x00800102                usbTxLen
+ .data.efreport3
+                0x00800103        0x5 usbpad.o
+                0x00800103                efreport3
+ .data.efreport2
+                0x00800108        0x5 usbpad.o
+                0x00800108                efreport2
+ .data.bMotor_str
+                0x0080010d        0x1 usbpad.o
+ .data.bdur     0x0080010e        0x2 usbpad.o
+                0x0080010e                bdur
+ .data.sdur     0x00800110        0x2 usbpad.o
+                0x00800110                sdur
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800112                . = ALIGN (0x2)
+                0x00800112                _edata = .
+                0x00800112                PROVIDE (__data_end, .)
+
+.bss            0x00800112       0x53
+                0x00800112                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.type.1607
+                0x00800112        0x1 psx.o
+ .bss.psxbuffer.1606
+                0x00800113        0x9 psx.o
+ .bss.usbMsgFlags
+                0x0080011c        0x1 usbdrv/usbdrv.o
+ .bss.outBuffer.1856
+                0x0080011d        0x8 usbpad.o
+ *(COMMON)
+ COMMON         0x00800125       0x36 usbdrv/usbdrv.o
+                0x00800125                usbTxBuf
+                0x00800130                usbTxStatus1
+                0x0080013c                usbDeviceAddr
+                0x0080013d                usbRxToken
+                0x0080013e                usbInputBufOffset
+                0x0080013f                usbMsgPtr
+                0x00800141                usbRxLen
+                0x00800142                usbNewDeviceAddr
+                0x00800143                usbCurrentTok
+                0x00800144                usbConfiguration
+                0x00800145                usbRxBuf
+ COMMON         0x0080015b        0xa usbpad.o
+                0x0080015b                bMotor
+                0x0080015c                report
+                0x00800164                sMotor
+                0x00800165                PROVIDE (__bss_end, .)
+                0x000013d0                __data_load_start = LOADADDR (.data)
+                0x000013e2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800165        0x0
+                0x00800165                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800165                PROVIDE (__noinit_end, .)
+                0x00800165                _end = .
+                0x00800165                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 psx.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 report_desc.o
+ .comment       0x00000000       0x31 spi.o
+ .comment       0x00000000       0x31 usbdrv/usbdrv.o
+ .comment       0x00000000       0x31 usbpad.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 usbdrv/usbdrvasm.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000       0x6b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x6b usbdrv/usbdrvasm.o
+
+.debug_abbrev   0x00000000       0x14
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 usbdrv/usbdrvasm.o
+
+.debug_line     0x00000000      0x199
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x199 usbdrv/usbdrvasm.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(usbpadpsx.elf elf32-avr)
+LOAD linker stubs
